@@ -1,0 +1,15 @@
+<launch>
+
+<!-- Unit 02 -->
+<!-- Launch file for robo_X using the stage simulation -->
+
+<!-- start stage node -->
+	<node pkg="stage_ros" name="stageros" type="stageros" output="screen" args="$(find IZ_worlds)/IZ_f0.world">
+ <remap from="base_scan" to="laserscan"/>
+	</node>
+
+<!-- start robo_X node -->
+	<node pkg="unit_02" type="robo_X" output="screen" name="Mystery_mover">
+	</node>
+
+</launch>

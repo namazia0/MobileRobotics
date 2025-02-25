@@ -1,0 +1,42 @@
+# 
+# World description of floor 0 in IZ
+#
+# Tested for Ubuntu Precison, ROS Hydro, and Stage 4.1.1 
+#
+
+include "irobot.inc"
+include "map.inc"
+include "sick.inc"
+
+interval_sim 100
+interval_real 100
+
+resolution 0.05
+
+#speedup 2.0				# run as fast as possible
+#threads 2				# one thread per cpu-core
+
+floorplan 
+(
+  name "EG"
+  size [100.050 100.000 1.000]    # 100mx100m due to 2001x2000 pixel resolution 0.05
+  bitmap "IZ_f0.png"
+)
+
+window
+(
+  size [ 1200 600 ] # in pixels
+  show_data 1              # 1=on 0=off
+  center [ 7.595 -10.773]
+ 
+)
+
+roomba
+(
+  # can refer to the robot by this name
+  name "roomba0"
+  pose [-1.0 -14.0 0.000 50.00] #before kitchen
+
+  fancysicklaser( pose [0.090 0.000 0.000 0.000] ) 
+
+)
