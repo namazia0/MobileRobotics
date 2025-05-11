@@ -13,4 +13,4 @@ Additionally used Tools: RViz, Gazebo
 - A*-search algorithm
 
 ### Unit 04
-- Explored how to identify objects with a camera on a driving mobile robot using OpenCV (e.g. identifying blue objects).
+- Explored how to identify objects with a camera on a mobile robot using OpenCV (e.g. identifying blue objects).
