@@ -1,6 +1,6 @@
-# Lab Mobile Robotics Winter Semester 2022/2023
+# Group Project Mobile Robotics Winter Semester 2022/2023
 
-Worked on various projects in this lab on a mobile robot (iRobot Roomba), including implementing a wall follower, SLAM (Simultaneous Localization and Mapping), an A*-search algorithm using C++, and [Robot Operating System (ROS)](https://ros.org/). For more details, refer to the [ROS Documentation](https://wiki.ros.org/Documentation).
+Worked on various projects on a mobile robot (iRobot Roomba), including implementing a wall follower, SLAM (Simultaneous Localization and Mapping), an A*-search algorithm using C++, and [Robot Operating System (ROS)](https://ros.org/). For more details, refer to the [ROS Documentation](https://wiki.ros.org/Documentation).
 Additionally, I used tools like RViz, and Gazebo.
 
 ### Unit 01
